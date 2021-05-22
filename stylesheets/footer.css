@@ -1,10 +1,5 @@
 /* ------------- FOOTER CSS-------------- */
 
-div.footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 .links{
     display: block;
     margin-left: auto;
