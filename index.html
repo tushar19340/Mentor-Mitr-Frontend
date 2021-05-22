@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="./stylesheets/plans.css">
+	<link rel="stylesheet" href="./stylesheets/footer.css">
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	
+	<title>Newsletter1</title>
+
+</head>
+<body>
+	<div class="data-1">
+		<div class="container">		
+			<div class="logo">
+				<img src="./images/MentorMitr_logo.png" alt="">
+			</div>
+			<form action="/pay" method="POST">
+				<!-- ------------------------------- form for details ------------------------------- -->
+				<div class="details">
+					<p style="font-size: 5vh;">Enter Your Details:</p>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							  <span class="input-group-text">
+							  <i class="fas fa-user"></i>
+							  </span>
+						</div>
+						<input type="text" class="form-control" placeholder="Name" name="username" id="username" required>
+					</div>
+					
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							  <span class="input-group-text">
+							  <i class="fas fa-envelope"></i>
+							  </span>
+						</div>
+						<input name="useremail" type="email" class="form-control" placeholder="Email Address" id="useremail" required>
+				  </div>
+					
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							  <span class="input-group-text">
+								<i class="fas fa-phone-square-alt"></i>
+							  </span>
+						</div>
+						<input type="number" class="form-control" placeholder="Phone Number" name="userphoneNumber" id="userphoneNumber" required>
+				    </div>
+					
+					<div class="typeOfUser">
+						<p>Please Select Your Designation:</p>
+	
+						<input type="radio" id="" name="userdesignation" value="School Student" required>
+						<label for="male">School Student</label><br>
+	
+						<input type="radio" id="" name="userdesignation" value="College Student" required>
+						<label for="female">College Student</label><br>
+	
+						<input type="radio" id="" name="userdesignation" value="Working Professional" required>
+						<label for="other">Working Professional</label>
+
+					</div>
+				</div>
+
+
+				<!-- -------------------------------------------------------------------------------- -->
+
+
+
+				<div class="row">
+					<div class="col-md-4 pt-5">
+						<h5 class="d-flex align-items-center justify-content-center mb-0 text-center">Starter Edition</h5>
+						<div class="card">
+							
+							<div class="d-flex align-items-center justify-content-center mb-0 text-center">
+								<img src="./images/image1.png" class="card-img-top ml-auto mr-auto" style="height: auto;width: 100%;" alt="...">
+							</div>
+							
+							<div class="card-body"> 
+								<ul>
+									<li>
+										Weekly MentorMitr Newsletter
+									</li>
+									<li>
+										Exclusive presentation from mentors & speakers weekly
+									</li>
+									<li>
+										Monthly E-Book
+									</li>
+									<li>
+										Get your query addressed by mentors every week
+									</li>
+									<li>
+										Validity 1 month
+									</li>
+								</ul>
+								
+								<!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p> -->
+								
+									<button type="submit" name="plan" value="oneMonthINR" class="pay btn btn-primary btn-block d-flex align-items-center justify-content-center">
+										<!-- <i class="fab fa-cc-paypal fa-2x mr-2"></i> -->
+										₹69
+										
+									</button>
+									<button type="submit" name="plan" value="oneMonthPESO" class="pay btn btn-primary btn-block d-flex align-items-center justify-content-center">
+										<!-- <i class="fab fa-cc-paypal fa-2x mr-2"></i> -->
+										₱79
+									</button>
+									<button type="submit" name="plan" value="oneMonthUSD" class="pay btn btn-primary btn-block d-flex align-items-center justify-content-center">
+										<!-- <i class="fab fa-cc-paypal fa-2x mr-2"></i> -->
+										$1.99
+										
+									</button>
+								
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4 pt-5">
+						<h5 class="d-flex align-items-center justify-content-center mb-0 text-center">Pro Edition <br>(Recommended)</h5>
+						<div class="card">
+							
+							<div class="d-flex align-items-center justify-content-center mb-0 text-center">
+								<img src="./images/image2.png" class="card-img-top ml-auto mr-auto" style="height: auto;width: 100%;" alt="...">
+							</div>
+							
+							<div class="card-body">
+								<ul>
+									<li>
+										Weekly MentorMitr Newsletter
+									</li>
+									<li>
+										Exclusive presentation from mentors & speakers weekly
+									</li>
+									<li>
+										Monthly E-Book
+									</li>
+									<li>
+										Get your query addressed by mentors every week
+									</li>
+									<li>
+										Chance to get featured in our webinars, social media etc.
+									</li>
+									<li>
+										Become voice of MentorMitr in your community
+									</li>
+									<li>
+										Validity 3 months, 10% off on pro edition
+									</li>
+								</ul>
+								
+								
+								<!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p> -->
+								
+									<button type="submit" name="plan" value="threeMonthsINR" class="pay btn btn-primary btn-block d-flex align-items-center justify-content-center">
+										<!-- <i class="fab fa-cc-paypal fa-2x mr-2"></i> -->
+										₹189
+										
+									</button>
+									<button type="submit" name="plan" value="threeMonthsPESO" class="pay btn btn-primary btn-block d-flex align-items-center justify-content-center">
+										<!-- <i class="fab fa-cc-paypal fa-2x mr-2"></i> -->
+										₱215
+									</button>
+									<button type="submit" name="plan" value="threeMonthsUSD" class="pay btn btn-primary btn-block d-flex align-items-center justify-content-center">
+										<!-- <i class="fab fa-cc-paypal fa-2x mr-2"></i> -->
+										$5.39
+									</button>
+								
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4 pt-5">       
+						<h5 class="d-flex align-items-center justify-content-center mb-0 text-center">Special Offer</h5>
+						<div class="card">
+							
+							<div class="d-flex align-items-center justify-content-center mb-0 text-center">
+								<img src="./images/image3.png" class="card-img-top ml-auto mr-auto" style="height: auto;width: 100%;" alt="...">
+							</div>
+							
+							<div class="card-body">
+								<ul>
+									<li>
+										Weekly MentorMitr Newsletter
+									</li>
+									<li>
+										Exclusive presentation from mentors & speakers weekly
+									</li>
+									<li>
+										Monthly E-Book
+									</li>
+									<li>
+										Get your query addressed by mentors every week
+									</li>
+									<li>
+										Chance to get featured in our webinars, social media etc.
+									</li>
+									<li>
+										Become voice of MentorMitr in your community
+									</li>
+									<li>
+										Validity 10 weeks, Special 20% discount
+									</li>
+								</ul>
+								
+								<!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p> -->
+								
+									<button type="submit" name="plan" value="specialOfferINR" class="pay btn btn-primary btn-block d-flex align-items-center justify-content-center">
+										<!-- <i class="fab fa-cc-paypal fa-2x mr-2"></i> -->
+										₹139
+									</button>
+									<button type="submit" name="plan" value="specialOfferPESO" class="pay btn btn-primary btn-block d-flex align-items-center justify-content-center">
+										<!-- <i class="fab fa-cc-paypal fa-2x mr-2"></i> -->
+										₱159
+									</button>
+									<button type="submit" name="plan" value="specialOfferUSD" class="pay btn btn-primary btn-block d-flex align-items-center justify-content-center">
+										<!-- <i class="fab fa-cc-paypal fa-2x mr-2"></i> -->
+										$3.99
+									</button>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="subscribe">
+					<button type="submit" name="plan" value="freeTrial" class="text-center btn btn-warning mb-5">30 Days Free Trial <span>&rarr;</span> Subscribe</button>
+					<!-- <a class="text-center btn btn-warning mb-5">30 Days Free Trial <span>&rarr;</span> Subscribe</a> -->
+				</div>
+				
+			</form>
+		</div>
+			
+	</div>
+
+    <div class="footer">
+		<div class="links d-flex justify-content-between" >
+			
+			<a href="https://www.facebook.com/MentorMitr/">
+				<i class="fab fa-facebook-f"></i>
+			</a>
+			<a href="https://www.instagram.com/mentormitr/">
+				<i class="fab fa-instagram"></i>
+			</a>
+			<a href="https://www.linkedin.com/company/mentormitr/">
+				<i class="fab fa-linkedin-in"></i>
+			</a>
+			<a href="https://www.youtube.com/channel/UCFPSDDiatlJqq59Vrc9VONA">
+				
+				<i class="fab fa-youtube"></i>
+			</a>
+
+		</div>
+	</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.logo img{
+    height: 14vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.details{
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+h5{
+    background-color: #F0F0F2;
+    height: 70px;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    font-size: 1.7rem;
+    font-family: 'Merriweather', serif;
+}
+
+.subscribe .btn{
+    margin-top: 5%;
+    background: #FFAC27;
+    color: white;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    width: 45%;
+    border: none;
+    border-radius: 3vw;
+    display: flex;
+      justify-content: center
+}
+.subscribe .btn:hover{
+    background: #fda313;
+}
+
+.btn-primary{
+    border: none;
+    border-radius: 5vw;			
+}
+.input-group-text {
+    color: white;
+    background-color: #FFAC27;
+}
+
+input[type='radio']:after {
+background-color: #fda313;
+}
+
+
+
+@media only screen and (max-width: 992px) and (min-width: 720px){
+    .subscribe .btn{
+        width: 70%;
+        font-size: 23px;
+        /* background-color: black; */
+    }
+    .container{
+        max-width: 100%;
+    }
+    .details{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 720px) and (min-width: 400px){
+    .logo img{
+        height: 25vw;        
+    }
+    .subscribe .btn{
+        width: 100%;
+        font-size: 95%;
+    }
+    
+    .details{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .logo img{
+        height: 25vw;    
+    }
+    .subscribe .btn{
+        width: 100%;
+        font-size: 80%;
+    }
+    .details{
+        width: 80%;
+    }
+}

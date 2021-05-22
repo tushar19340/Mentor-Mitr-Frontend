@@ -1,0 +1,53 @@
+/* ------------- FOOTER CSS-------------- */
+
+div.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.links{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 35%;
+
+}
+.links i{
+    font-size: 60px;
+	color: #FFAC27;
+}
+.links a{
+    text-decoration: none;
+}
+.footer{
+    height: 100px;
+    background-color: #F0F0F2;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 720px){
+    .links{
+        width: 40%;
+    }
+    .links i{
+        font-size: 55px;
+    }
+}
+@media only screen and (max-width: 720px) and (min-width: 400px){
+    .links{
+        width: 50%;
+    }
+    .links i{
+        font-size: 50px;
+    }
+    
+}
+@media only screen and (max-width: 400px){
+    .links{
+        width: 70%;
+    }
+   .links i{
+       font-size: 40px;
+   }
+    
+}
